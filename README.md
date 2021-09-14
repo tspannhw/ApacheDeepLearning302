@@ -1,4 +1,5 @@
-# ApacheDeepLearning302
+# Apache Deep Learning 302
+
 ApacheDeepLearning302 for ApacheCon Global 2021 - Apache Pulsar, Apache MXNet, Apache NiFi, Apache Flink, Apache Tika
 
 
@@ -23,3 +24,6 @@ curl -X POST http://127.0.0.1:9999/predictions/crepe -F "data=[{\"review_title\"
 * https://gluon.mxnet.io/
 * https://mxnet.apache.org/versions/1.8.0/get_started?platform=macos&language=python&processor=cpu&environ=pip&
 * https://github.com/awslabs/multi-model-server/tree/master/examples/gluon_character_cnn
+* https://github.com/awslabs/multi-model-server/blob/master/examples/gluon_character_cnn/synset.txt
+* https://github.com/deepjavalibrary/djl/tree/master/examples
+* https://mxnet.apache.org/api/python/docs/api/gluon/model_zoo/index.html
