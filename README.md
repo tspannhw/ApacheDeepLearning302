@@ -14,6 +14,9 @@ multi-model-server --start --models caffenet=https://s3.amazonaws.com/model-serv
 curl -X POST http://127.0.0.1:9999/predictions/crepe -F "data=[{\"review_title\":\"Inception is the best\",\"review\": \"great direction and story\"}]"
 
 
+# Stop server
+
+multi-model-server --stop
 
 # Resources
 
@@ -27,3 +30,6 @@ curl -X POST http://127.0.0.1:9999/predictions/crepe -F "data=[{\"review_title\"
 * https://github.com/awslabs/multi-model-server/blob/master/examples/gluon_character_cnn/synset.txt
 * https://github.com/deepjavalibrary/djl/tree/master/examples
 * https://mxnet.apache.org/api/python/docs/api/gluon/model_zoo/index.html
+* https://community.cloudera.com/t5/Community-Articles/Apache-Deep-Learning-101-Processing-Apache-MXNet-Model/ta-p/247944
+* https://github.com/awslabs/multi-model-server/blob/master/docs/server.md  
+* https://github.com/awslabs/multi-model-server/blob/master/docs/model_zoo.md 
