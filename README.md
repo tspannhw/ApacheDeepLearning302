@@ -26,6 +26,7 @@ multi-model-server --stop
 
 ```
 ioreg | grep -i cam
+system_profiler SPCameraDataType
 ```
 
 ### Resources
